@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaReadme } from 'react-icons/fa';
 
-const Course = ({course}) => {
+const Course = ({course,handleSelect}) => {
     const {id,image,name,description,price,credit_hours}=course;
     return (
         <div className='bg-white rounded-lg mt-4 ml-2 h-96 w-72 p-2'>
@@ -14,7 +14,7 @@ const Course = ({course}) => {
                 <FaReadme className='mr-4'></FaReadme>
                 <p>Credit :{credit_hours} hour</p>
             </div>
-            <button className='bg-blue-600 w-64 h-10'>Select</button>
+            <button onClick={()=>handleSelect(name)} className='bg-blue-600 w-64 h-10'>Select</button>
         </div>
     );
 };
