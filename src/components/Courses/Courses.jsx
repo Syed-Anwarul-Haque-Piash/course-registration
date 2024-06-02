@@ -7,23 +7,22 @@ const Courses = () => {
     const [selects,setSelects]=useState([])
     const [credits,setCredits]=useState(0)
     const [prices,setPrices]=useState(0)
+    const [remaining,setRemaning]=useState(20)
    useEffect(()=>{
     fetch('course.json')
     .then(res=>res.json())
     .then(data=>{
-        //console.log(data);
+        
         setCourses(data)
     })
    },[])
-   const handleSelect=(name,credit,price)=>{
-    //console.log("I am selcting it",name);
+   const handleSelect=(name,credit,price,id)=>{
     setSelects([...selects,name])
-    //const showSelect=selects.filter(select=>select.id!==id)
-    //setSelects(showSelect);
-    //setCredits(credits+credit)
+    // const showSelect=selects.filter(sel=>sel.id!==id)
+    // setSelects(showSelect);
     const showCredit=credits+credit;
     if(showCredit>20){
-        alert("You can add 20 credits")
+        alert("You cant add more than 20 credits")
     }
     else{
         setCredits(showCredit)
@@ -31,13 +30,16 @@ const Courses = () => {
     
     setPrices(prices+price)
    }
+   
+   
+
     return (
         <div className='mt-4 flex bg-gray-200'>
             <div className='w-3/4 grid grid-cols-3 gap-4 '>
                 {courses.map(course=><Course course={course} handleSelect={handleSelect} key={course.id}></Course>)}
             </div>
             <div className='w-1/4'>
-                <Carts selects={selects} credits={credits} prices={prices}></Carts>
+                <Carts selects={selects} credits={credits} remaining={remaining} prices={prices}></Carts>
             </div>
         </div>
     );
