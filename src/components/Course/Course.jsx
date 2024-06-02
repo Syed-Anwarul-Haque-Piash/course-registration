@@ -14,7 +14,7 @@ const Course = ({course,handleSelect}) => {
                 <FaReadme className='mr-4'></FaReadme>
                 <p>Credit :{credit_hours} hour</p>
             </div>
-            <button onClick={()=>handleSelect(name,credit_hours,price)} className='bg-blue-600 w-64 h-10 rounded-lg text-white font-bold'>Select</button>
+            <button onClick={()=>handleSelect(name,credit_hours,price,id)} className='bg-blue-600 w-64 h-10 rounded-lg text-white font-bold'>Select</button>
         </div>
     );
 };

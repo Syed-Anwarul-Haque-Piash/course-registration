@@ -11,14 +11,24 @@ const Courses = () => {
     fetch('course.json')
     .then(res=>res.json())
     .then(data=>{
-        console.log(data);
+        //console.log(data);
         setCourses(data)
     })
    },[])
    const handleSelect=(name,credit,price)=>{
-    console.log("I am selcting it",name);
+    //console.log("I am selcting it",name);
     setSelects([...selects,name])
-    setCredits(credits+credit)
+    //const showSelect=selects.filter(select=>select.id!==id)
+    //setSelects(showSelect);
+    //setCredits(credits+credit)
+    const showCredit=credits+credit;
+    if(showCredit>20){
+        alert("You can add 20 credits")
+    }
+    else{
+        setCredits(showCredit)
+    }
+    
     setPrices(prices+price)
    }
     return (

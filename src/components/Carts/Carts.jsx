@@ -6,7 +6,7 @@ const Carts = ({selects,credits,prices}) => {
         <div className='m-4 p-4'>
             <h1 className='text-2xl font-bold'>Course Name</h1>
             {/* {selects.map(select=><p>{select}</p>)} */}
-            {selects.map(select=><Cart select={select}></Cart>)}
+            {selects.map((select,idx)=><Cart key={idx} select={select}></Cart>)}
             <p className='font-bold'>Total Credit Hour: {credits}</p>
             <p className='font-bold'>Total prices: {prices} USD</p>
         </div>
