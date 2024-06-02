@@ -12,8 +12,8 @@ const Courses = () => {
     })
    },[])
     return (
-        <div className='mt-4 flex'>
-            <div className='w-3/4'>
+        <div className='mt-4 flex bg-gray-200'>
+            <div className='w-3/4 grid grid-cols-3 gap-4 '>
                 {courses.map(course=><Course course={course} key={course.id}></Course>)}
             </div>
             <div className='w-1/4'>

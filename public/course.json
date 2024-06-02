@@ -1,11 +1,11 @@
 [
     {
       "id": 1,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fpython-programming-language-versatile-journey-from-beginner-k-s-0jkkc&psig=AOvVaw32-Qey8GsC7yjzdQjPToFb&ust=1717388944800000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiZ5eGKvIYDFQAAAAAdAAAAABAE",
+      "image": "https://verpex.com/assets/uploads/images/blog/Python-good-for-machine-learning.webp?v=1681274267",
       "name": "Introduction to Python Programming",
       "description": "Learn the fundamentals of Python programming language, including basic syntax, data types, and control structures.",
       "price": 49.99,
-      "credit-hours": 3
+      "credit_hours": 3
     },
     {
       "id": 2,
@@ -13,15 +13,15 @@
       "name": "Web Development with JavaScript",
       "description": "Explore the world of web development using JavaScript. Cover topics such as DOM manipulation, AJAX, and frameworks like React.",
       "price": 59.99,
-      "credit-hours": 4
+      "credit_hours": 4
     },
     {
       "id": 3,
-      "image": "https://media.licdn.com/dms/image/D5612AQFQdYob-XRpkA/article-cover_image-shrink_720_1280/0/1710750874997?e=2147483647&v=beta&t=j9Ldybg7aZVUnpu4GuhFGYrtuP9hA-LRgMuqIsmt1bc",
+      "image": "https://cdn.sanity.io/images/tlr8oxjg/production/ada93729daf922ad0318c8c0295e5cb477921808-1456x816.png?w=3840&q=100&fit=clip&auto=format",
       "name": "Machine Learning Fundamentals",
       "description": "Dive into the basics of machine learning, including regression, classification, and clustering algorithms.",
       "price": 79.99,
-      "credit-hours": 5
+      "credit_hours": 5
     },
     {
       "id": 4,
@@ -29,15 +29,15 @@
       "name": "Graphic Design Essentials",
       "description": "Master the essential principles and techniques of graphic design, including typography, color theory, and layout design.",
       "price": 69.99,
-      "credit-hours": 4
+      "credit_hours": 4
     },
     {
       "id": 5,
-      "image": "course5.jpg",
+      "image": "https://media.licdn.com/dms/image/D5612AQHPSm4J2ELn_A/article-cover_image-shrink_720_1280/0/1703870573777?e=2147483647&v=beta&t=-Rb5aGGE7jo4xgt9QAKHZ3dUmqeN8GgoMAywFpHJcj8",
       "name": "Digital Marketing Strategies",
       "description": "Learn how to develop effective digital marketing strategies, including SEO, social media marketing, and email campaigns.",
       "price": 89.99,
-      "credit-hours": 6
+      "credit_hours": 6
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "name": "Introduction to Data Science",
       "description": "Discover the fundamentals of data science, including data wrangling, exploratory data analysis, and data visualization.",
       "price": 69.99,
-      "credit-hours": 4
+      "credit_hours": 4
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "name": "iOS App Development",
       "description": "Build your own iOS apps from scratch using Swift programming language and Apple's Xcode development environment.",
       "price": 79.99,
-      "credit-hours": 5
+      "credit_hours": 5
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "name": "Introduction to Cybersecurity",
       "description": "Understand the basics of cybersecurity, including network security, cryptography, and security protocols.",
       "price": 59.99,
-      "credit-hours": 4
+      "credit_hours": 4
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "name": "Business Management Fundamentals",
       "description": "Learn essential concepts of business management, including strategic planning, marketing, and finance.",
       "price": 49.99,
-      "credit-hours": 3
+      "credit_hours": 3
     }
   ]
   
