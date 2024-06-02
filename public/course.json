@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fpython-programming-language-versatile-journey-from-beginner-k-s-0jkkc&psig=AOvVaw32-Qey8GsC7yjzdQjPToFb&ust=1717388944800000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiZ5eGKvIYDFQAAAAAdAAAAABAE",
+      "name": "Introduction to Python Programming",
+      "description": "Learn the fundamentals of Python programming language, including basic syntax, data types, and control structures.",
+      "price": 49.99,
+      "credit-hours": 3
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJA6UFV6kBwQkGnmhpKTjNlTnO2WTq9WdjxA&s",
+      "name": "Web Development with JavaScript",
+      "description": "Explore the world of web development using JavaScript. Cover topics such as DOM manipulation, AJAX, and frameworks like React.",
+      "price": 59.99,
+      "credit-hours": 4
+    },
+    {
+      "id": 3,
+      "image": "https://media.licdn.com/dms/image/D5612AQFQdYob-XRpkA/article-cover_image-shrink_720_1280/0/1710750874997?e=2147483647&v=beta&t=j9Ldybg7aZVUnpu4GuhFGYrtuP9hA-LRgMuqIsmt1bc",
+      "name": "Machine Learning Fundamentals",
+      "description": "Dive into the basics of machine learning, including regression, classification, and clustering algorithms.",
+      "price": 79.99,
+      "credit-hours": 5
+    },
+    {
+      "id": 4,
+      "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Is_Graphic_Design_A_Good_Career.jpg",
+      "name": "Graphic Design Essentials",
+      "description": "Master the essential principles and techniques of graphic design, including typography, color theory, and layout design.",
+      "price": 69.99,
+      "credit-hours": 4
+    },
+    {
+      "id": 5,
+      "image": "course5.jpg",
+      "name": "Digital Marketing Strategies",
+      "description": "Learn how to develop effective digital marketing strategies, including SEO, social media marketing, and email campaigns.",
+      "price": 89.99,
+      "credit-hours": 6
+    },
+    {
+      "id": 6,
+      "image": "https://bernardmarr.com/wp-content/uploads/2022/11/The-Top-5-Data-Science-And-Analytics-Trends-In-2023.jpg",
+      "name": "Introduction to Data Science",
+      "description": "Discover the fundamentals of data science, including data wrangling, exploratory data analysis, and data visualization.",
+      "price": 69.99,
+      "credit-hours": 4
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.sanity.io/images/tlr8oxjg/production/e91a4659d80f9de0294d1fc4d9c78b23a4e93146-1456x816.png?w=3840&q=100&fit=clip&auto=format",
+      "name": "iOS App Development",
+      "description": "Build your own iOS apps from scratch using Swift programming language and Apple's Xcode development environment.",
+      "price": 79.99,
+      "credit-hours": 5
+    },
+    {
+      "id": 8,
+      "image": "https://imageio.forbes.com/specials-images/imageserve/642445004586b4330e81b689//960x0.jpg?height=406&width=711&fit=bounds",
+      "name": "Introduction to Cybersecurity",
+      "description": "Understand the basics of cybersecurity, including network security, cryptography, and security protocols.",
+      "price": 59.99,
+      "credit-hours": 4
+    },
+    {
+      "id": 9,
+      "image": "https://asiasociety.org/sites/default/files/styles/2_1_social/public/B/business-management-and-administration_accounting-training_flickr.jpg",
+      "name": "Business Management Fundamentals",
+      "description": "Learn essential concepts of business management, including strategic planning, marketing, and finance.",
+      "price": 49.99,
+      "credit-hours": 3
+    }
+  ]
+  
