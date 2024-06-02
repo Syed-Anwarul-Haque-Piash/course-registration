@@ -41,11 +41,11 @@ const Courses = () => {
 
 
     return (
-        <div className='mt-4 flex bg-gray-200'>
-            <div className='w-3/4 grid grid-cols-3 gap-4 '>
+        <div className='mt-4 md:flex bg-gray-200'>
+            <div className='md:w-3/4 md:grid grid-cols-3 gap-4 '>
                 {courses.map(course => <Course course={course} handleSelect={handleSelect} key={course.id}></Course>)}
             </div>
-            <div className='w-1/4'>
+            <div className='md:w-1/4'>
                 <Carts selects={selects} credits={credits} remaining={remaining} prices={prices}></Carts>
             </div>
         </div>
