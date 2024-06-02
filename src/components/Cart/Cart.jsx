@@ -3,9 +3,9 @@ import React from 'react';
 const Cart = ({select}) => {
     
     return (
-        <div>
+        <div >
             <ol>
-                <li>{select}</li>
+                <li className='text-gray-400'>{select}</li>
             </ol>
         </div>
     );
