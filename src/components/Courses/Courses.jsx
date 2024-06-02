@@ -6,6 +6,7 @@ const Courses = () => {
     const [courses,setCourses]=useState([])
     const [selects,setSelects]=useState([])
     const [credits,setCredits]=useState(0)
+    const [prices,setPrices]=useState(0)
    useEffect(()=>{
     fetch('course.json')
     .then(res=>res.json())
@@ -14,9 +15,11 @@ const Courses = () => {
         setCourses(data)
     })
    },[])
-   const handleSelect=(name)=>{
+   const handleSelect=(name,credit,price)=>{
     console.log("I am selcting it",name);
     setSelects([...selects,name])
+    setCredits(credits+credit)
+    setPrices(prices+price)
    }
     return (
         <div className='mt-4 flex bg-gray-200'>
@@ -24,7 +27,7 @@ const Courses = () => {
                 {courses.map(course=><Course course={course} handleSelect={handleSelect} key={course.id}></Course>)}
             </div>
             <div className='w-1/4'>
-                <Carts selects={selects}></Carts>
+                <Carts selects={selects} credits={credits} prices={prices}></Carts>
             </div>
         </div>
     );
